@@ -1,0 +1,55 @@
+# By ZenX
+name: vpn_basic_project
+description: Flutter Android VPN based on OpenVPN Library.
+publish_to: 'none'
+
+# App Version
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+# App dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  # Fonts
+  google_fonts: ^6.1.0
+  # Change package name
+  change_app_package_name: ^1.1.0
+  # GetX for state management
+  get: ^4.6.5
+  # Http to call api
+  http: ^1.1.0
+  # Convert CSV data to List
+  csv: ^5.1.1
+  # Generate Model Json
+  json_annotation: ^4.8.0
+  # Lottie Animation
+  lottie: ^2.7.0
+  # Storing data in local
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.0
+  hive_generator:
+  flutter_lints: ^3.0.1
+
+flutter:
+  # Enabling material design
+  uses-material-design: true
+
+  # App assets
+  assets:
+    - assets/
+    - assets/vpn/
+    - assets/images/
+    - assets/lottie/
+    - assets/flags/
